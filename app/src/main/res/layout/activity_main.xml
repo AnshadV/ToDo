@@ -22,13 +22,13 @@
         android:layout_marginEnd="6dp"
         android:layout_toStartOf="@+id/btnAdd"
         android:ems="10"
-        android:hint="Add an item here"
-        android:text="Name" />
+        android:hint="Add an item here" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rvItems"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_above="@+id/etItem"
+        android:layout_marginTop="0dp"
         android:layout_marginBottom="0dp" />
 </RelativeLayout>
